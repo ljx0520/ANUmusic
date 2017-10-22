@@ -208,7 +208,7 @@ def main():
     filename = destination+input_name
     makeURL(filename)    
     pool = Pool(cpu_count() * 2)  # Creates a Pool with cpu_count * 2 threads.
-    num_chunks = 50    #alter this if necessary
+    #num_chunks = 50    #alter this if necessary
     filename = destination+"query.csv"
     print("running...")
     try:
